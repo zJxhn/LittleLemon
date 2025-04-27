@@ -10,7 +10,7 @@ import Login from './Pages/Login';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/LittleLemon">
         <Routes>
           <Route path='/' element={<Home/>}></Route>
           <Route path='/about' element={<About/>}></Route>
