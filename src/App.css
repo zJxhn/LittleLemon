@@ -104,6 +104,10 @@
   left: 9px;
 }
 
+.box-btn-reserve:hover{
+  cursor: pointer;
+}
+
 .imgMenu{
   grid-column: 8/11;
   grid-row: 2/8;
