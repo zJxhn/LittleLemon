@@ -36,7 +36,7 @@ function Main(){
                     className='box-btn-reserve'
                     onClick={ButtonReservations}
                     >
-                        Reserve a table</button>
+                        XD a table</button>
                 </div>
                 <div className="imgMenu">
                     <img src={imgMenu} alt="food" className="img-box"></img>
