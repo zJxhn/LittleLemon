@@ -6,8 +6,21 @@
   grid-column-gap: 20px;
 }
 
+.header-fix{
+  width: 1903px;
+  height: 98px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 20px;
+  grid-column: 1/13;
+  grid-row: 1/2;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1000;
+}
+
 .logo{
-  width: 100%;
+  width: 260px;
   height: 70px;
 }
 
@@ -15,10 +28,11 @@
   grid-column: 3 / 6;
   display: flex;
   align-items: center;
+  justify-content: left;
 }
 
 .navegacion{
-  grid-column: 7/12;
+  grid-column: 6/11;
   display: inline-block;
   text-align: center;
 }
@@ -125,25 +139,25 @@
 .special{
   display: grid;
   width: 1903px;
-  height: 686px;
+  height: 784px;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: repeat(7,1fr);
+  grid-template-rows: repeat(8,1fr);
   grid-column-gap: 20px;
   grid-column: 1/13;
-  grid-row: 8/15;
+  grid-row: 8/16;
 }
 
 .text4{
-  grid-column: 3/6;
-  font-size: 2.7em;
-  font-weight: bold;
+  grid-column: 3/7;
+  font-size: 4em;
+  font-weight: 600;
   text-align: left;
   align-items: center;
 }
 
 .img1-especial{
-  grid-column: 3/6;
-  grid-row: 2/5;
+  grid-column: 3/5;
+  grid-row: 3/6;
 
 }
 
@@ -154,8 +168,8 @@
 }
 
 .boxgray1-especial{
-  grid-column: 3/6;
-  grid-row: 5/8;
+  grid-column: 3/5;
+  grid-row: 6/9;
   background-color: #EDEFEE;
   width: 380px;
   height: 105%;
@@ -189,8 +203,10 @@
 }
 
 .img2-especial{
-  grid-column: 6/9;
-  grid-row: 2/5;
+  grid-column: 5/9;
+  grid-row: 3/6;
+  display: flex;
+  justify-content: center;
 }
 
 .img-bruchetta{
@@ -200,13 +216,14 @@
 }
 
 .boxgray2-especial{
-  grid-column: 6/9;
-  grid-row: 5/8;
+  grid-column: 6/8;
+  grid-row: 6/9;
   background-color: #EDEFEE;
   width: 380px;
   height: 105%;
   position: relative;
   top: -14px;
+  left: -39px;
 }
 
 .text1-box2-especial{
@@ -235,25 +252,29 @@
 }
 
 .img3-especial{
-  grid-column: 9/12;
-  grid-row: 2/5;
+  grid-column: 9/11;
+  grid-row: 3/6;
 }
 
 .img-lemonDessert{
   width: 380px;
   height: 100%;
   border-radius: 20px;
+  position: relative;
+  left: -79px;
 }
 
 .boxgray3-especial{
-  grid-column: 9/12;
-  grid-row: 5/8;
-  background-color: #EDEFEE;
+  grid-column: 9/11;
+  grid-row: 6/9;
   width: 380px;
   height: 105%;
+  background-color: #EDEFEE;
   position: relative;
   top: -14px;
+  left: -79px;
 }
+
 
 .text1-box3-especial{
   font-size: 1.5em;
@@ -281,3 +302,24 @@
   left: -20px;
 }
 
+.btn-order-online{
+  grid-column: 9/11;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-order{
+  background-color: #F4CE14;
+  border: none;
+  border-radius: 20px;
+  width: 260px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.boton-order:hover{
+  cursor: pointer;
+}

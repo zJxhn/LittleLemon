@@ -8,12 +8,10 @@ import Specials from "../components/Specials";
 function Home() {
     return (
       <div className="contenedor-principal">
-        <header className="cabecera">
+        <div className="header-fix">
           <Header />
-        </header>
-        <nav className='navegacion'>
           <Nav />
-        </nav>
+        </div>
           <Main />
           <Specials/>
       </div>

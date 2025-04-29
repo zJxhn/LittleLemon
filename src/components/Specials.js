@@ -1,10 +1,17 @@
 import React from "react";
 import '../App.css'
 import greeksalad from '../greeksalad.jpg'
-import bruchetta from '../bruchetta.svg'
+import bruchetta from '../bruchetta.jpg'
 import lemonDessert from '../lemondessert.jpg'
+import { useNavigate } from "react-router-dom";
 
 function Specials(){
+    const navigate = useNavigate();
+        
+    const ButtonOnlineMenu = () => {
+        navigate('/order');
+        window.scrollTo(0,0);
+    }
     return(
         <article className="special">
             <div className="text4">
@@ -33,6 +40,12 @@ function Specials(){
                 <div className="text1-box3-especial">Lemon Dessert</div>
                 <div className="text2-box3-especial">Order Delivery</div>
                 <div className="text3-box3-especial">$12.99</div>
+            </div>
+            <div className="btn-order-online">
+                <button
+                className="boton-order"
+                onClick={ButtonOnlineMenu}
+                >Online Menu</button>
             </div>
         </article>
     );
