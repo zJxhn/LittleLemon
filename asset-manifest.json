@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/LittleLemon/static/css/main.d23354cd.css",
-    "main.js": "/LittleLemon/static/js/main.0d9183f7.js",
+    "main.css": "/LittleLemon/static/css/main.364d6128.css",
+    "main.js": "/LittleLemon/static/js/main.1f14991c.js",
     "static/js/453.ed3810f9.chunk.js": "/LittleLemon/static/js/453.ed3810f9.chunk.js",
     "static/media/greeksalad.jpg": "/LittleLemon/static/media/greeksalad.bed423a1fab5b210e347.jpg",
     "static/media/imgmenu.jpg": "/LittleLemon/static/media/imgmenu.e8abf5b772b6817189aa.jpg",
+    "static/media/testimonio4.jpg": "/LittleLemon/static/media/testimonio4.a030baa6d2ffeb6745d6.jpg",
+    "static/media/testimonio1.jpg": "/LittleLemon/static/media/testimonio1.f1babc048d6ce760cfdd.jpg",
     "static/media/bruchetta.jpg": "/LittleLemon/static/media/bruchetta.aa8531eecf9513e376a1.jpg",
     "static/media/logo.svg": "/LittleLemon/static/media/logo.f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/testimonio2.jpg": "/LittleLemon/static/media/testimonio2.5a6041c0a593b545f7c4.jpg",
+    "static/media/testimonio3.jpg": "/LittleLemon/static/media/testimonio3.e7ce6427322ec71b19b8.jpg",
     "index.html": "/LittleLemon/index.html",
-    "main.d23354cd.css.map": "/LittleLemon/static/css/main.d23354cd.css.map",
-    "main.0d9183f7.js.map": "/LittleLemon/static/js/main.0d9183f7.js.map",
+    "main.364d6128.css.map": "/LittleLemon/static/css/main.364d6128.css.map",
+    "main.1f14991c.js.map": "/LittleLemon/static/js/main.1f14991c.js.map",
     "453.ed3810f9.chunk.js.map": "/LittleLemon/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d23354cd.css",
-    "static/js/main.0d9183f7.js"
+    "static/css/main.364d6128.css",
+    "static/js/main.1f14991c.js"
   ]
 }
